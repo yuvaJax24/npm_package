@@ -1,0 +1,34 @@
+{
+  "name": "react_npm_design_comp",
+  "version": "0.0.2",
+  "description": "npm package for react component",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvaJax24/react_npm_design_comp.git"
+  },
+  "keywords": [
+    "react-npm-component",
+    "react-npm-button"
+  ],
+  "author": "yuva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvaJax24/react_npm_design_comp/issues"
+  },
+  "homepage": "https://github.com/yuvaJax24/react_npm_design_comp#readme",
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "classnames": "^2.5.1"
+  }
+}

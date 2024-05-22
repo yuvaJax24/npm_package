@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "jsx": "react",
+    "lib": ["dom", "es2015"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
