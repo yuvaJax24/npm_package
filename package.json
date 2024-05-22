@@ -1,6 +1,6 @@
 {
   "name": "react_npm_design_comp",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "npm package for react component",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

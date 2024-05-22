@@ -1,9 +1,9 @@
 import React from "react";
 import { ButtonType } from "./type";
 import classNames from "classnames";
-import Spinner from "../spinner";
+import { Spinner } from "../spinner";
 
-function Button(props: ButtonType) {
+export function Button(props: ButtonType) {
   const {
     children,
     className = "",
@@ -44,5 +44,3 @@ function Button(props: ButtonType) {
     </button>
   );
 }
-
-export default Button;

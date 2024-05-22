@@ -1,10 +1,10 @@
 import React from "react";
 import { SpinnerType } from "./type";
 
-const Spinner = (props: SpinnerType) => {
+export const Spinner = (props: SpinnerType) => {
   const { color = "black", className = "" } = props;
   return (
-    <span
+    <div
       style={{
         borderColor: color,
       }}
@@ -12,5 +12,3 @@ const Spinner = (props: SpinnerType) => {
     />
   );
 };
-
-export default Spinner;
